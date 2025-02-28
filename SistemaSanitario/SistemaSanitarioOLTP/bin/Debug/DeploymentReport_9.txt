@@ -1,0 +1,22 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       [Administracion].[Hospital]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Volver a crear la tabla
+       [Administracion].[Hospital] (Tabla)
+
+** Acciones de compatibilidad
+     Quitar
+       [Administracion].[FK_Hospital_Medico] (Clave externa)
+     Crear
+       [Administracion].[FK_Hospital_Medico] (Clave externa)
+
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+
