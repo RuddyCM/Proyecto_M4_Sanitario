@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SistemaSanitarioOLTP", "SistemaSanitarioOLTP\SistemaSanitarioOLTP.sqlproj", "{DE6759E6-9196-4311-86FE-76AEBED4B5F8}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SistemaSanitarioDW", "SistemaSanitarioDW\SistemaSanitarioDW.sqlproj", "{5EA96CCC-AAD2-47F8-A547-C46EBC06E2EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,12 @@ Global
 		{DE6759E6-9196-4311-86FE-76AEBED4B5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE6759E6-9196-4311-86FE-76AEBED4B5F8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DE6759E6-9196-4311-86FE-76AEBED4B5F8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5EA96CCC-AAD2-47F8-A547-C46EBC06E2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA96CCC-AAD2-47F8-A547-C46EBC06E2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA96CCC-AAD2-47F8-A547-C46EBC06E2EF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5EA96CCC-AAD2-47F8-A547-C46EBC06E2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA96CCC-AAD2-47F8-A547-C46EBC06E2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA96CCC-AAD2-47F8-A547-C46EBC06E2EF}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

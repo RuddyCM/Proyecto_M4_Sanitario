@@ -60,6 +60,7 @@
     <Folder Include="Schema\Tables" />
     <Folder Include="Schema\Programmability" />
     <Folder Include="Schema\Security" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema\Security\Administracion.sql" />
@@ -73,5 +74,17 @@
     <Build Include="Schema\Tables\HistoriaClinica.sql" />
     <Build Include="Schema\Tables\VisitaMedica.sql" />
     <Build Include="Schema\Tables\Hospital_Servicio.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Hospital.data.sql" />
+    <None Include="Scripts\HistoriaClinica.data.sql" />
+    <None Include="Scripts\Hospital_Servicio.data.sql" />
+    <None Include="Scripts\Medico.data.sql" />
+    <None Include="Scripts\Medico_Servicio.data.sql" />
+    <None Include="Scripts\Paciente.data.sql" />
+    <None Include="Scripts\Servicio.data.sql" />
+    <None Include="Scripts\VisitaMedica.data.sql" />
+    <None Include="Scripts\Scripts.PostDeployments.sql" />
+    <None Include="Scripts\Clean.sql" />
   </ItemGroup>
 </Project>
