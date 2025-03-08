@@ -1,0 +1,80 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       [dbo].[Dim_Hospital]
+       [dbo].[Dim_Medico]
+       [dbo].[Dim_Paciente]
+       [dbo].[Dim_Servicio]
+       [dbo].[Dim_Tiempo]
+       [dbo].[Fact_Visitas]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       El tipo de la columna codHospital en la tabla [dbo].[Dim_Hospital] es  VARCHAR (20) NOT NULL, pero se va a cambiar a 
+         INT NOT NULL. Si la columna contiene datos no compatibles con el tipo  INT NOT NULL, podrían producirse pérdidas de
+         datos y errores en la implementación.
+       El tipo de la columna codHospital en la tabla [dbo].[Dim_Medico] es  VARCHAR (20) NULL, pero se va a cambiar a  INT
+         NULL. Si la columna contiene datos no compatibles con el tipo  INT NULL, podrían producirse pérdidas de datos y errores
+         en la implementación.
+       Se está quitando la columna [dbo].[Dim_Servicio].[descripcion]; puede que se pierdan datos.
+       El tipo de la columna idServicio en la tabla [dbo].[Dim_Servicio] es  VARCHAR (20) NOT NULL, pero se va a cambiar a 
+         VARCHAR (10) NOT NULL. Si la columna contiene datos no compatibles con el tipo  VARCHAR (10) NOT NULL, podrían
+         producirse pérdidas de datos y errores en la implementación.
+       Se está quitando la columna [dbo].[Dim_Tiempo].[año]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[Dim_Tiempo].[día]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[Dim_Tiempo].[día_mes]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[Dim_Tiempo].[idFecha]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[Dim_Tiempo].[nombre_mes]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[Fact_Visitas].[codHospital]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[Fact_Visitas].[costo_servicio]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[Fact_Visitas].[DNI_Medico]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[Fact_Visitas].[DNI_Paciente]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[Fact_Visitas].[idServicio]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[Fact_Visitas].[idVisita]; puede que se pierdan datos.
+       El tipo de la columna fecha_hora en la tabla [dbo].[Fact_Visitas] es  INT NULL, pero se va a cambiar a  DATETIME NULL.
+         Si la columna contiene datos no compatibles con el tipo  DATETIME NULL, podrían producirse pérdidas de datos y errores
+         en la implementación.
+
+** Acciones del usuario
+     Quitar
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+     Volver a crear la tabla
+       [dbo].[Dim_Hospital] (Tabla)
+       [dbo].[Dim_Medico] (Tabla)
+       [dbo].[Dim_Paciente] (Tabla)
+       [dbo].[Dim_Servicio] (Tabla)
+       [dbo].[Dim_Tiempo] (Tabla)
+       [dbo].[Fact_Visitas] (Tabla)
+     Crear
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+
+** Acciones de compatibilidad
+
+El tipo de la columna codHospital en la tabla [dbo].[Dim_Hospital] es  VARCHAR (20) NOT NULL, pero se va a cambiar a  INT NOT NULL. Si la columna contiene datos no compatibles con el tipo  INT NOT NULL, podrían producirse pérdidas de datos y errores en la implementación.
+El tipo de la columna codHospital en la tabla [dbo].[Dim_Medico] es  VARCHAR (20) NULL, pero se va a cambiar a  INT NULL. Si la columna contiene datos no compatibles con el tipo  INT NULL, podrían producirse pérdidas de datos y errores en la implementación.
+Se está quitando la columna [dbo].[Dim_Servicio].[descripcion]; puede que se pierdan datos.
+El tipo de la columna idServicio en la tabla [dbo].[Dim_Servicio] es  VARCHAR (20) NOT NULL, pero se va a cambiar a  VARCHAR (10) NOT NULL. Si la columna contiene datos no compatibles con el tipo  VARCHAR (10) NOT NULL, podrían producirse pérdidas de datos y errores en la implementación.
+Se está quitando la columna [dbo].[Dim_Tiempo].[año]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[Dim_Tiempo].[día]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[Dim_Tiempo].[día_mes]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[Dim_Tiempo].[idFecha]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[Dim_Tiempo].[nombre_mes]; puede que se pierdan datos.
+La columna fecha de la tabla [dbo].[Dim_Tiempo] debe cambiarse de NULL a NOT NULL. Si la tabla contiene datos, puede que no funcione el script ALTER. Para evitar esta incidencia, debe agregar valores en todas las filas de esta columna, marcar la columna de modo que permita valores NULL o habilitar la generación de valores predeterminados inteligentes como opción de implementación.
+Se está quitando la columna [dbo].[Fact_Visitas].[codHospital]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[Fact_Visitas].[costo_servicio]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[Fact_Visitas].[DNI_Medico]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[Fact_Visitas].[DNI_Paciente]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[Fact_Visitas].[idServicio]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[Fact_Visitas].[idVisita]; puede que se pierdan datos.
+El tipo de la columna fecha_hora en la tabla [dbo].[Fact_Visitas] es  INT NULL, pero se va a cambiar a  DATETIME NULL. Si la columna contiene datos no compatibles con el tipo  DATETIME NULL, podrían producirse pérdidas de datos y errores en la implementación.
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

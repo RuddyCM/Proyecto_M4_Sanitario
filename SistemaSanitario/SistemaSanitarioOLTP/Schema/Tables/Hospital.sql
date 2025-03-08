@@ -3,8 +3,9 @@
     codHospital INT CONSTRAINT PK_Hospital PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     ciudad VARCHAR(100) NOT NULL,
-    telefono VARCHAR(15) NOT NULL,
-    DNI_Director VARCHAR(20) NULL
+    telefono VARCHAR(20) NOT NULL,
+    DNI_Director VARCHAR(20) NULL,
+    rowversion timestamp not null,
 );
 GO
 

@@ -1,11 +1,11 @@
-﻿CREATE TABLE Dim_Tiempo (
-    idFecha INT PRIMARY KEY,
-    fecha DATE,
-    año INT,
+﻿-- Tabla Dim_Tiempo
+CREATE TABLE Dim_Tiempo (
+    TiempoSK INT IDENTITY(1,1) PRIMARY KEY,
+    fecha DATE UNIQUE NOT NULL,
+    anio INT,
     trimestre INT,
     mes INT,
-    día INT,
+    dia INT,
     semana INT,
-    día_mes INT,
-    nombre_mes VARCHAR(20)
+    dia_mes INT
 );

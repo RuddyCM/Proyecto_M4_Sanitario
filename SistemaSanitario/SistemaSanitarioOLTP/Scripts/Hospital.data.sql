@@ -1,7 +1,12 @@
-﻿PRINT 'Populating Hospital table';
+﻿PRINT 'Populating Administracion.Hospital table';
 SET NOCOUNT ON;
-INSERT INTO Hospital (codHospital, nombre, ciudad, telefono) VALUES ('H1000', 'Stevens, Mccann and Wilkerson', 'East Timothy', '+1-733-659-4222x138');
-INSERT INTO Hospital (codHospital, nombre, ciudad, telefono) VALUES ('H1001', 'Frost PLC', 'Brownton', '130-674-7066');
-INSERT INTO Hospital (codHospital, nombre, ciudad, telefono) VALUES ('H1002', 'Ortega Group', 'North Lynnfurt', '521-806-6047x050');
-INSERT INTO Hospital (codHospital, nombre, ciudad, telefono) VALUES ('H1003', 'Smith, Dixon and Griffin', 'South Julie', '931.297.9493');
-INSERT INTO Hospital (codHospital, nombre, ciudad, telefono) VALUES ('H1004', 'West-Mendoza', 'Johntown', '(551)993-7038x611');
+INSERT INTO Administracion.Hospital (codHospital, nombre, ciudad, telefono, DNI_Director) VALUES (1, 'Cazorla, Hernando and Valenciano', 'Santa Cruz de Tenerife', '+34719 457 584', 7402147);
+INSERT INTO Administracion.Hospital (codHospital, nombre, ciudad, telefono, DNI_Director) VALUES (2, 'Gámez LLC', 'Barcelona', '+34621332989', 35303697);
+INSERT INTO Administracion.Hospital (codHospital, nombre, ciudad, telefono, DNI_Director) VALUES (3, 'Cabello LLC', 'Cuenca', '+34 720 734 231', 58807118);
+INSERT INTO Administracion.Hospital (codHospital, nombre, ciudad, telefono, DNI_Director) VALUES (4, 'Abad-Ríos', 'Soria', '+34 749 14 83 50', 26775577);
+INSERT INTO Administracion.Hospital (codHospital, nombre, ciudad, telefono, DNI_Director) VALUES (5, 'Sarabia, Aguilar and Vendrell', 'La Coruña', '+34749 99 69 06', 3357301);
+INSERT INTO Administracion.Hospital (codHospital, nombre, ciudad, telefono, DNI_Director) VALUES (6, 'Riquelme-Bernad', 'Teruel', '+34 622897319', 23456901);
+INSERT INTO Administracion.Hospital (codHospital, nombre, ciudad, telefono, DNI_Director) VALUES (7, 'Madrid Group', 'Cádiz', '+34 723 31 33 19', 25089541);
+INSERT INTO Administracion.Hospital (codHospital, nombre, ciudad, telefono, DNI_Director) VALUES (8, 'Ribera, Mate and Somoza', 'Jaén', '+34706964078', 1237997);
+INSERT INTO Administracion.Hospital (codHospital, nombre, ciudad, telefono, DNI_Director) VALUES (9, 'Abril Inc', 'Valladolid', '+34728 255 346', 6467537);
+INSERT INTO Administracion.Hospital (codHospital, nombre, ciudad, telefono, DNI_Director) VALUES (10, 'Ropero, Palomo and Verdugo', 'Granada', '+34731 123 640', 36413869);

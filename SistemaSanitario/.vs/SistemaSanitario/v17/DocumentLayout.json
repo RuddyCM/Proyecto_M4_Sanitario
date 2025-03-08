@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Clean.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\Clean.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP_16.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP_16.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Medico.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\Medico.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP_13.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP_13.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Servicio.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\Servicio.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Clean.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\Clean.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,97 +47,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Clean.sql ",
-              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Clean.sql",
-              "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\Scripts\\Clean.sql",
-              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Clean.sql",
-              "RelativeToolTip": "SistemaSanitarioOLTP\\Scripts\\Clean.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-05T21:24:02.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SistemaSanitarioOLTP_16.publish.sql",
-              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP_16.publish.sql",
-              "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP_16.publish.sql",
-              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP_16.publish.sql",
-              "RelativeToolTip": "SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP_16.publish.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-05T21:15:17.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Scripts.PostDeployments.sql",
+              "Title": "Scripts.PostDeployments.sql ",
               "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql",
               "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql",
               "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql",
               "RelativeToolTip": "SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-05T21:14:35.7Z",
+              "WhenOpened": "2025-03-08T02:08:17.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SistemaSanitarioOLTP_13.publish.sql",
-              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP_13.publish.sql",
-              "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP_13.publish.sql",
-              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP_13.publish.sql",
-              "RelativeToolTip": "SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP_13.publish.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-05T18:23:23.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Servicio.data.sql",
-              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Servicio.data.sql",
-              "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\Scripts\\Servicio.data.sql",
-              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Servicio.data.sql",
-              "RelativeToolTip": "SistemaSanitarioOLTP\\Scripts\\Servicio.data.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-05T14:51:57.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Medico.data.sql",
-              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Medico.data.sql",
-              "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\Scripts\\Medico.data.sql",
-              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Medico.data.sql",
-              "RelativeToolTip": "SistemaSanitarioOLTP\\Scripts\\Medico.data.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-05T14:51:51.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Hospital_Servicio.data.sql",
+              "DocumentIndex": 1,
+              "Title": "Hospital_Servicio.data.sql ",
               "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql",
               "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql",
               "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql",
               "RelativeToolTip": "SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-02-28T22:03:39.688Z",
+              "WhenOpened": "2025-03-08T02:08:10.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SistemaSanitarioOLTP.publish.sql",
-              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP.publish.sql",
-              "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP.publish.sql",
-              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP.publish.sql",
-              "RelativeToolTip": "SistemaSanitarioOLTP\\bin\\Debug\\SistemaSanitarioOLTP.publish.sql",
+              "DocumentIndex": 2,
+              "Title": "HistoriaClinica.data.sql ",
+              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql",
+              "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql",
+              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql",
+              "RelativeToolTip": "SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-02-26T23:12:26.219Z",
+              "WhenOpened": "2025-03-08T02:08:06.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetPacienteChangesByRowVersion.sql ",
+              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql",
+              "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql",
+              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql",
+              "RelativeToolTip": "SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-06T14:19:27.866Z",
               "EditorCaption": ""
             }
           ]

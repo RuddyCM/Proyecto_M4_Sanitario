@@ -61,6 +61,7 @@
     <Folder Include="Schema\Programmability" />
     <Folder Include="Schema\Security" />
     <Folder Include="Scripts" />
+    <Folder Include="Schema\Programmability\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema\Security\Administracion.sql" />
@@ -84,7 +85,8 @@
     <None Include="Scripts\Paciente.data.sql" />
     <None Include="Scripts\Servicio.data.sql" />
     <None Include="Scripts\VisitaMedica.data.sql" />
-    <None Include="Scripts\Scripts.PostDeployments.sql" />
+    <PostDeploy Include="Scripts\Scripts.PostDeployments.sql" />
     <None Include="Scripts\Clean.sql" />
+    <None Include="Schema\Programmability\Stored Procedures\GetPacienteChangesByRowVersion.sql" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,25 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Modificar
+       [Administracion].[Hospital] (Tabla)
+       [Administracion].[Medico] (Tabla)
+       [Administracion].[Medico_Servicio] (Tabla)
+       [Pacientes].[HistoriaClinica] (Tabla)
+       [Pacientes].[Paciente] (Tabla)
+       [Pacientes].[VisitaMedica] (Tabla)
+       [Servicios].[Hospital_Servicio] (Tabla)
+       [Servicios].[Servicio] (Tabla)
+
+** Acciones de compatibilidad
+
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

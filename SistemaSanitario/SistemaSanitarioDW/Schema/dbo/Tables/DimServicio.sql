@@ -1,7 +1,6 @@
-﻿-- Dim_Servicio
+﻿-- Tabla Dim_Servicio
 CREATE TABLE Dim_Servicio (
-    idServicio VARCHAR(20) PRIMARY KEY,
-    nombre_servicio VARCHAR(255),
-    descripcion TEXT
+    ServicioSK INT IDENTITY(1,1) PRIMARY KEY,
+    idServicio VARCHAR(10) UNIQUE NOT NULL,
+    nombre_servicio NVARCHAR(255)
 );
- 

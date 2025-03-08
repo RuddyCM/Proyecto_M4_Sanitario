@@ -3,5 +3,6 @@
     apellidos_nombre VARCHAR(150) NOT NULL,
     fecha_nacimiento DATE NOT NULL,
     codHospital INT NOT NULL,
-    esDirector BIT DEFAULT 0
+    esDirector BIT DEFAULT 0,
+    rowversion timestamp not null,
 );

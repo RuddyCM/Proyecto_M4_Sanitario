@@ -9,6 +9,7 @@
     tratamiento TEXT NOT NULL,
     num_habitacion INT NULL,
     fecha_alta DATE NULL,
+    rowversion timestamp not null,
     CONSTRAINT FK_Hospital_VisitaMedica FOREIGN KEY (codHospital) REFERENCES Administracion.Hospital(codHospital) ON DELETE NO ACTION,
     CONSTRAINT FK_Servicio_VisitaMedica FOREIGN KEY (idServicio) REFERENCES Servicios.Servicio(idServicio) ON DELETE NO ACTION,
     CONSTRAINT FK_Medico_VisitaMedica FOREIGN KEY (DNI_Medico) REFERENCES Administracion.Medico(DNI) ON DELETE NO ACTION,

@@ -1,12 +1,52 @@
-﻿PRINT 'Populating Hospital_Servicio table';
+﻿PRINT 'Populating Servicios.Hospital_Servicio table';
 SET NOCOUNT ON;
-
-INSERT INTO Hospital_Servicio (codHospital, idServicio, num_camas)
-VALUES 
-    ('H1000', 'S001', 25),
-    ('H1000', 'S002', 30),
-    ('H1001', 'S001', 20),
-    ('H1001', 'S003', 15),
-    ('H1002', 'S002', 10),
-    ('H1003', 'S004', 50),
-    ('H1003', 'S005', 40);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (1, 'SERV01', 16);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (1, 'SERV02', 5);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (1, 'SERV03', 13);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (1, 'SERV04', 5);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (1, 'SERV05', 5);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (2, 'SERV01', 14);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (2, 'SERV02', 6);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (2, 'SERV03', 15);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (2, 'SERV04', 10);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (2, 'SERV05', 9);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (3, 'SERV01', 8);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (3, 'SERV02', 8);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (3, 'SERV03', 16);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (3, 'SERV04', 7);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (3, 'SERV05', 5);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (4, 'SERV01', 18);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (4, 'SERV02', 6);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (4, 'SERV03', 7);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (4, 'SERV04', 5);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (4, 'SERV05', 6);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (5, 'SERV01', 18);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (5, 'SERV02', 16);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (5, 'SERV03', 8);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (5, 'SERV04', 13);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (5, 'SERV05', 6);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (6, 'SERV01', 13);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (6, 'SERV02', 13);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (6, 'SERV03', 10);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (6, 'SERV04', 6);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (6, 'SERV05', 17);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (7, 'SERV01', 15);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (7, 'SERV02', 16);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (7, 'SERV03', 9);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (7, 'SERV04', 12);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (7, 'SERV05', 7);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (8, 'SERV01', 20);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (8, 'SERV02', 6);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (8, 'SERV03', 5);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (8, 'SERV04', 17);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (8, 'SERV05', 13);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (9, 'SERV01', 8);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (9, 'SERV02', 12);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (9, 'SERV03', 15);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (9, 'SERV04', 7);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (9, 'SERV05', 18);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (10, 'SERV01', 12);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (10, 'SERV02', 5);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (10, 'SERV03', 19);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (10, 'SERV04', 10);
+INSERT INTO Servicios.Hospital_Servicio (codHospital, idServicio, num_camas) VALUES (10, 'SERV05', 6);

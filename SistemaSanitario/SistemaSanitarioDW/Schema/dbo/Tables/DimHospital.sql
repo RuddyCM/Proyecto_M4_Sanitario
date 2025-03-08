@@ -1,9 +1,10 @@
-﻿-- Dim_Hospital
+﻿-- Tabla Dim_Hospital
 CREATE TABLE Dim_Hospital (
-    codHospital VARCHAR(20) PRIMARY KEY,
-    nombre VARCHAR(255),
-    ciudad VARCHAR(255),
-    telefono VARCHAR(20),
-    director VARCHAR(20),
+    HospitalSK INT IDENTITY(1,1) PRIMARY KEY,
+    codHospital INT UNIQUE NOT NULL,
+    nombre NVARCHAR(255),
+    ciudad NVARCHAR(255),
+    telefono VARCHAR(50),
+    director NVARCHAR(255),
     numero_total_camas INT
 );
