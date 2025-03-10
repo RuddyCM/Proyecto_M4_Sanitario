@@ -12,5 +12,5 @@ GO
 -- Agregar clave foránea para el director del hospital
 ALTER TABLE Administracion.Hospital
 ADD CONSTRAINT FK_Hospital_Medico FOREIGN KEY (DNI_Director)
-REFERENCES Administracion.Medico(DNI) ON DELETE SET NULL;
+REFERENCES Administracion.Medico(DNI_Medico) ON DELETE SET NULL;
 GO

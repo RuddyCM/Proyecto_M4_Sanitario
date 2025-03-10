@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{5EA96CCC-AAD2-47F8-A547-C46EBC06E2EF}|SistemaSanitarioDW\\SistemaSanitarioDW.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioDW\\Schema\\Programmability\\Stored Procedures\\GetLastPackageRowVersion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{5EA96CCC-AAD2-47F8-A547-C46EBC06E2EF}|SistemaSanitarioDW\\SistemaSanitarioDW.sqlproj|solutionrelative:SistemaSanitarioDW\\Schema\\Programmability\\Stored Procedures\\GetLastPackageRowVersion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{C6B33C41-5BA1-9103-9177-2A3DA6112AFC}|SistemaSanitarioETL\\SistemaSanitarioETL.dtproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioETL\\DimServicio.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{C6B33C41-5BA1-9103-9177-2A3DA6112AFC}|SistemaSanitarioETL\\SistemaSanitarioETL.dtproj|solutionrelative:SistemaSanitarioETL\\DimServicio.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{DE6759E6-9196-4311-86FE-76AEBED4B5F8}|SistemaSanitarioOLTP\\SistemaSanitarioOLTP.sqlproj|solutionrelative:SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{5EA96CCC-AAD2-47F8-A547-C46EBC06E2EF}|SistemaSanitarioDW\\SistemaSanitarioDW.sqlproj|D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioDW\\Schema\\Programmability\\Stored Procedures\\GetLastPackageRowVersion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{5EA96CCC-AAD2-47F8-A547-C46EBC06E2EF}|SistemaSanitarioDW\\SistemaSanitarioDW.sqlproj|solutionrelative:SistemaSanitarioDW\\Schema\\Programmability\\Stored Procedures\\GetLastPackageRowVersion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,50 +27,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Scripts.PostDeployments.sql ",
-              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql",
-              "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql",
-              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql",
-              "RelativeToolTip": "SistemaSanitarioOLTP\\Scripts\\Scripts.PostDeployments.sql",
+              "Title": "GetLastPackageRowVersion.sql ",
+              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioDW\\Schema\\Programmability\\Stored Procedures\\GetLastPackageRowVersion.sql",
+              "RelativeDocumentMoniker": "SistemaSanitarioDW\\Schema\\Programmability\\Stored Procedures\\GetLastPackageRowVersion.sql",
+              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioDW\\Schema\\Programmability\\Stored Procedures\\GetLastPackageRowVersion.sql",
+              "RelativeToolTip": "SistemaSanitarioDW\\Schema\\Programmability\\Stored Procedures\\GetLastPackageRowVersion.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-08T02:08:17.124Z",
+              "WhenOpened": "2025-03-10T03:32:29.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Hospital_Servicio.data.sql ",
-              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql",
-              "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql",
-              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql",
-              "RelativeToolTip": "SistemaSanitarioOLTP\\Scripts\\Hospital_Servicio.data.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-08T02:08:10.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HistoriaClinica.data.sql ",
-              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql",
-              "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql",
-              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql",
-              "RelativeToolTip": "SistemaSanitarioOLTP\\Scripts\\HistoriaClinica.data.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-08T02:08:06.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetPacienteChangesByRowVersion.sql ",
-              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql",
-              "RelativeDocumentMoniker": "SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql",
-              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql",
-              "RelativeToolTip": "SistemaSanitarioOLTP\\Schema\\Programmability\\Stored Procedures\\GetPacienteChangesByRowVersion.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-06T14:19:27.866Z",
-              "EditorCaption": ""
+              "Title": "DimServicio.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioETL\\DimServicio.dtsx",
+              "RelativeDocumentMoniker": "SistemaSanitarioETL\\DimServicio.dtsx",
+              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SistemaSanitario\\SistemaSanitarioETL\\DimServicio.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaSanitarioETL\\DimServicio.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMlSURBVDhPjZQ7bJtVGIaf41vsOk7ihICdxK1wiWiTFhW1QBEDapEQAnVoOzGUAalDNybECgsINqQOrBUDGzAgIUCVijoUqAQoTuM4JW4dO3Yuvvz2/9v//TC4/mM7ROGVPumc73zvq/d85yIAPvniq9/S8ydf4hComk5lZ/fHv\u002B7fu/nd11/\u002BMLyOlDLQG59Mz5CamRosGMLdP1ZZWlk9r1mIK\u002B99wM/f37rTUmqqVyCE8ANcePPS9RdfWJidS0xxJDxyYOSL21iOGx6NRie3qsrs9NOJWkdt1rSW0u5p\u002Bjz1/wm/348r5eT2bu1iPJG\u002BFhmdmO9fHxDUTYfthuGFptsY1l5O1V0e5ov8nckSG42GipvlKy1Ve65fw\u002BshQHajxbf3Kt78jTPTTI\u002BF\u002BObXEgAtxSCeSPPOsyksy\u002Ban23f62F0MOHQl6K6P9vgM2sQsVjjWzTnQHksg506wcPYsr7\u002B8SDAYRAjRT4dhQQCkizA0hK4hbPNJTiKMDgHLIBYOMTE\u002BNszyMCA4Hg2yOBflVNzmdNxiOuwSiwRYTI1yatJmcdwiHnLoOP2sQQz08HgyyvFktD8FwLULKSSgW6BaUKjUhks87N/yAdAtaFmgGNC2wR8MAYf08J\u002Byxq3bG14sPW7iuNCxu86ahqRhSFRTIBFw2KEomsVyUSNTD7JUD1Jp\u002B9EdaJmgGJKG0XWomRLp2CBlPx2GBQEQPuRIBBmOYooAqtlzBnUdqk2TmqKju0Fik0mS6dML8dSZixw5dm6foE9A2OcSaZSJ1Es4quqJNXRodCSlrSaPNhq0gzMsnH\u002BbS\u002B9//OG5q5//wtF3bzJ8yidSMW5MRTAsUG1whZ\u002Bm2d1m0wTNAsuFuaciXH0tyW5Dp7SlUSlU90z1Btn1Te7ef8DSgxwrqznW13KsraywtpxhM5ehsZ5BLy7jNre6RCnptC2q9Q4t7ckD6Dk0TZs/Mzl2qgffrx4CE0cZOfY8hbLKWkEh\u002B1ihUvV\u002Br65gPv9webepy0Kh2M/9Tzwz/2rSFImU1Drkyy0elVVKO3uC\u002By/SYUi89RGzlz8dTqPlfyf72Sv/AiuphR\u002BNLPK3AAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-03-10T03:13:21.495Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

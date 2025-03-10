@@ -1,0 +1,47 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [Administracion] (Esquema)
+       [Pacientes] (Esquema)
+       [Servicios] (Esquema)
+       [Administracion].[Medico] (Tabla)
+       [Administracion].[Hospital] (Tabla)
+       [Administracion].[Medico_Servicio] (Tabla)
+       [Pacientes].[HistoriaClinica] (Tabla)
+       [Pacientes].[Paciente] (Tabla)
+       [Pacientes].[VisitaMedica] (Tabla)
+       [Servicios].[Hospital_Servicio] (Tabla)
+       [Servicios].[Servicio] (Tabla)
+       Restricción DEFAULT: restricción sin nombre en [Administracion].[Medico] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [Servicios].[Hospital_Servicio] (Restricción DEFAULT)
+       [Administracion].[FK_Hospital_Medico] (Clave externa)
+       [Administracion].[FK_Medico_Medico_Servicio] (Clave externa)
+       [Administracion].[FK_Servicio_Medico_Servicio] (Clave externa)
+       [Administracion].[FK_Hospital_Medico_Servicio] (Clave externa)
+       [Pacientes].[FK_Paciente_HistoriaClinica] (Clave externa)
+       [Pacientes].[FK_Hospital_VisitaMedica] (Clave externa)
+       [Pacientes].[FK_Servicio_VisitaMedica] (Clave externa)
+       [Pacientes].[FK_Medico_VisitaMedica] (Clave externa)
+       [Pacientes].[FK_HistoriaClinica_VisitaMedica] (Clave externa)
+       [Servicios].[FK_Hospital_Hospital_Servicio] (Clave externa)
+       [Servicios].[FK_Servicio_Hospital_Servicio] (Clave externa)
+       [dbo].[GetDatabaseRowVersion] (Procedimiento)
+       [dbo].[GetHospitalChangesByRowVersion] (Procedimiento)
+       [dbo].[GetMedicoChangesByRowVersion] (Procedimiento)
+       [dbo].[GetPacienteChangesByRowVersion] (Procedimiento)
+       [dbo].[GetServicioChangesByRowVersion] (Procedimiento)
+       [dbo].[GetVisitaMedicaChangesByRowVersion] (Procedimiento)
+
+** Acciones de compatibilidad
+
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

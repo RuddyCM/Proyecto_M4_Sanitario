@@ -62,11 +62,9 @@
     <Folder Include="Schema\Security" />
     <Folder Include="Scripts" />
     <Folder Include="Schema\Programmability\Stored Procedures" />
+    <Folder Include="Schema\Security\Schemas" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Schema\Security\Administracion.sql" />
-    <Build Include="Schema\Security\Servicios.sql" />
-    <Build Include="Schema\Security\Pacientes.sql" />
     <Build Include="Schema\Tables\Hospital.sql" />
     <Build Include="Schema\Tables\Servicio.sql" />
     <Build Include="Schema\Tables\Medico.sql" />
@@ -75,6 +73,8 @@
     <Build Include="Schema\Tables\HistoriaClinica.sql" />
     <Build Include="Schema\Tables\VisitaMedica.sql" />
     <Build Include="Schema\Tables\Hospital_Servicio.sql" />
+    <Build Include="Schema\Security\Schemas\Servicios.sql" />
+    <Build Include="Schema\Security\Schemas\Administracion.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Hospital.data.sql" />
@@ -87,6 +87,14 @@
     <None Include="Scripts\VisitaMedica.data.sql" />
     <PostDeploy Include="Scripts\Scripts.PostDeployments.sql" />
     <None Include="Scripts\Clean.sql" />
-    <None Include="Schema\Programmability\Stored Procedures\GetPacienteChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetPacienteChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetDatabaseRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetMedicoChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetHospitalChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetServicioChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetVisitaMedicaChangesByRowVersion.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Schema\Security\Schemas\Pacientes.sql" />
   </ItemGroup>
 </Project>

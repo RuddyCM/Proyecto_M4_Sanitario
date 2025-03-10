@@ -1,0 +1,39 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       [Administracion].[Medico]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Se está quitando la columna [Administracion].[Medico].[DNI]; puede que se pierdan datos.
+       Debe agregarse la columna [Administracion].[Medico].[DNI_Medico] de la tabla [Administracion].[Medico], pero esta
+         columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no
+         funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita
+         valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+
+** Acciones del usuario
+     Quitar
+       restricción sin nombre en [Administracion].[Medico] (Restricción DEFAULT)
+       [Administracion].[FK_Hospital_Medico] (Clave externa)
+       [Administracion].[FK_Medico_Medico_Servicio] (Clave externa)
+       [Pacientes].[FK_Medico_VisitaMedica] (Clave externa)
+     Volver a crear la tabla
+       [Administracion].[Medico] (Tabla)
+     Crear
+       [Administracion].[FK_Hospital_Medico] (Clave externa)
+       [Administracion].[FK_Medico_Medico_Servicio] (Clave externa)
+       [Pacientes].[FK_Medico_VisitaMedica] (Clave externa)
+       [dbo].[GetDatabaseRowVersion] (Procedimiento)
+       [dbo].[GetHospitalChangesByRowVersion] (Procedimiento)
+       [dbo].[GetMedicoChangesByRowVersion] (Procedimiento)
+       [dbo].[GetPacienteChangesByRowVersion] (Procedimiento)
+       [dbo].[GetServicioChangesByRowVersion] (Procedimiento)
+       [dbo].[GetVisitaMedicaChangesByRowVersion] (Procedimiento)
+
+** Acciones de compatibilidad
+
+Se está quitando la columna [Administracion].[Medico].[DNI]; puede que se pierdan datos.
+Debe agregarse la columna [Administracion].[Medico].[DNI_Medico] de la tabla [Administracion].[Medico], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

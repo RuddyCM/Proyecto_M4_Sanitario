@@ -57,23 +57,30 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Schema" />
-    <Folder Include="Programmability" />
-    <Folder Include="Security" />
-    <Folder Include="Security\schemas" />
-    <Folder Include="Schema\dbo" />
-    <Folder Include="Schema\staging" />
-    <Folder Include="Schema\dbo\Tables" />
+    <Folder Include="Schema\Tables" />
+    <Folder Include="Schema\Tables\dbo" />
+    <Folder Include="Schema\Tables\staging" />
+    <Folder Include="Schema\Programmability" />
+    <Folder Include="Schema\Security" />
+    <Folder Include="Schema\Security\Schemas" />
+    <Folder Include="Schema\Programmability\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Schema\dbo\Tables\DimHospital.sql" />
-    <Build Include="Schema\dbo\Tables\DimMedico.sql" />
-    <Build Include="Schema\dbo\Tables\DimPaciente.sql" />
-    <Build Include="Schema\dbo\Tables\DimServicio.sql" />
-    <Build Include="Schema\dbo\Tables\DimTiempo.sql" />
-    <Build Include="Schema\dbo\Tables\FactVisitas.sql" />
-    <Build Include="Schema\dbo\Tables\PackageConfig.sql" />
+    <Build Include="Schema\Tables\dbo\PackageConfig.sql" />
+    <Build Include="Schema\Tables\dbo\DimHospital.sql" />
+    <Build Include="Schema\Tables\dbo\DimMedico.sql" />
+    <Build Include="Schema\Tables\dbo\DimPaciente.sql" />
+    <Build Include="Schema\Tables\dbo\DimServicio.sql" />
+    <Build Include="Schema\Tables\dbo\DimTiempo.sql" />
+    <Build Include="Schema\Tables\dbo\FactVisitas.sql" />
+    <Build Include="Schema\Security\Schemas\staging.sql" />
+    <Build Include="Schema\Tables\staging\Pacientes.sql" />
+    <Build Include="Schema\Tables\staging\Medico.sql" />
+    <Build Include="Schema\Tables\staging\Hospital.sql" />
+    <Build Include="Schema\Tables\staging\Servicio.sql" />
+    <Build Include="Schema\Tables\staging\Vsitas.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Security\schemas\staging.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetLastPackageRowVersion.sql" />
   </ItemGroup>
 </Project>

@@ -4,7 +4,3 @@ D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitari
 D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioOLTP\obj\Debug\SistemaSanitarioOLTP.sqlproj.AssemblyReference.cache
 D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioOLTP\obj\Debug\SistemaSanitarioOLTP.dll
 D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioOLTP\obj\Debug\SistemaSanitarioOLTP.pdb
-D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioOLTP\obj\Debug\Model.xml
-D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioOLTP\obj\Debug\refactor.xml
-D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioOLTP\obj\Debug\postdeploy.sql
-D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioOLTP\obj\Debug\predeploy.sql
