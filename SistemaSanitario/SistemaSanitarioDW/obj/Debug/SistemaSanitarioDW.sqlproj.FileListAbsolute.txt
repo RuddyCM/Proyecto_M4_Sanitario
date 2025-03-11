@@ -1,6 +1,6 @@
 D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioDW\bin\Debug\SistemaSanitarioDW.dacpac
+D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioDW\bin\Debug\SistemaSanitarioDW.dll
+D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioDW\bin\Debug\SistemaSanitarioDW.pdb
 D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioDW\obj\Debug\SistemaSanitarioDW.sqlproj.AssemblyReference.cache
 D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioDW\obj\Debug\SistemaSanitarioDW.dll
 D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioDW\obj\Debug\SistemaSanitarioDW.pdb
-D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioDW\bin\Debug\SistemaSanitarioDW.dll
-D:\programas para la maestria\proyecto modulo 4\SistemaSanitario\SistemaSanitarioDW\bin\Debug\SistemaSanitarioDW.pdb

@@ -1,0 +1,20 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Quitar
+       restricción sin nombre en [dbo].[Dim_Hospital] (Restricción UNIQUE)
+     Modificar
+       [dbo].[DW_MergeDimHospital] (Procedimiento)
+
+** Acciones de compatibilidad
+
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

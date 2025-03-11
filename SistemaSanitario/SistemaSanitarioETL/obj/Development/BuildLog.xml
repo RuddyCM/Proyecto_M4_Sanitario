@@ -2,13 +2,28 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>SistemaSanitarioETL</Name>
-    <LastWriteTime>2025-03-10T03:31:37.2445922Z</LastWriteTime>
+    <LastWriteTime>2025-03-11T22:55:57.7557914Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
-      <Name>DimServicio.dtsx</Name>
-      <LastWriteTime>2025-03-10T03:50:24.0793896Z</LastWriteTime>
+      <Name>Servicio.dtsx</Name>
+      <LastWriteTime>2025-03-11T21:32:19.834162Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Paciente.dtsx</Name>
+      <LastWriteTime>2025-03-11T22:55:57.7303188Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Hospital.dtsx</Name>
+      <LastWriteTime>2025-03-11T22:32:28.6420682Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Medico.dtsx</Name>
+      <LastWriteTime>2025-03-11T22:58:19.7260051Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

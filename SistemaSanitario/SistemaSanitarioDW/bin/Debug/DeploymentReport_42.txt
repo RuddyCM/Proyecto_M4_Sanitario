@@ -1,0 +1,42 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [staging] (Esquema)
+       [staging].[Hospitalest] (Tabla)
+       [staging].[Visitast] (Tabla)
+       [staging].[Serviciost] (Tabla)
+       [staging].[Medicost] (Tabla)
+       [staging].[Pacientest] (Tabla)
+       [dbo].[Dim_Hospital] (Tabla)
+       [dbo].[Dim_Medico] (Tabla)
+       [dbo].[Dim_Paciente] (Tabla)
+       [dbo].[Dim_Servicio] (Tabla)
+       [dbo].[Dim_Tiempo] (Tabla)
+       [dbo].[Fact_Visitas] (Tabla)
+       [dbo].[PackageConfig] (Tabla)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       [dbo].[DW_MergeDimHospital] (Procedimiento)
+       [dbo].[DW_MergeDimMedico] (Procedimiento)
+       [dbo].[DW_MergeDimPaciente] (Procedimiento)
+       [dbo].[DW_MergeDimServicio] (Procedimiento)
+       [dbo].[DW_MergeFactVisitas] (Procedimiento)
+       [dbo].[GetLastPackageRowVersion] (Procedimiento)
+       [dbo].[UpdateLastPackageRowVersion] (Procedimiento)
+
+** Acciones de compatibilidad
+
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

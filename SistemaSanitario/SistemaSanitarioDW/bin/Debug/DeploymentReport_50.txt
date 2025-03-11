@@ -1,0 +1,23 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       El tipo de la columna apellidos_nombre en la tabla [dbo].[Dim_Paciente] es  NVARCHAR (255) NULL, pero se va a cambiar a 
+         VARCHAR (255) NULL. Si la columna contiene datos no compatibles con el tipo  VARCHAR (255) NULL, podrían producirse
+         pérdidas de datos y errores en la implementación.
+
+** Acciones del usuario
+     Modificar
+       [dbo].[Dim_Paciente] (Tabla)
+
+** Acciones de compatibilidad
+     Actualizar
+       [dbo].[DW_MergeDimPaciente] (Procedimiento)
+
+El tipo de la columna apellidos_nombre en la tabla [dbo].[Dim_Paciente] es  NVARCHAR (255) NULL, pero se va a cambiar a  VARCHAR (255) NULL. Si la columna contiene datos no compatibles con el tipo  VARCHAR (255) NULL, podrían producirse pérdidas de datos y errores en la implementación.
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

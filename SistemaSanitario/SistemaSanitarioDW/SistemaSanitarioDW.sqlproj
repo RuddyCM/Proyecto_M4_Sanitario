@@ -64,6 +64,7 @@
     <Folder Include="Schema\Security" />
     <Folder Include="Schema\Security\Schemas" />
     <Folder Include="Schema\Programmability\Stored Procedures" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema\Tables\dbo\PackageConfig.sql" />
@@ -74,13 +75,29 @@
     <Build Include="Schema\Tables\dbo\DimTiempo.sql" />
     <Build Include="Schema\Tables\dbo\FactVisitas.sql" />
     <Build Include="Schema\Security\Schemas\staging.sql" />
-    <Build Include="Schema\Tables\staging\Pacientes.sql" />
-    <Build Include="Schema\Tables\staging\Medico.sql" />
-    <Build Include="Schema\Tables\staging\Hospital.sql" />
-    <Build Include="Schema\Tables\staging\Servicio.sql" />
-    <Build Include="Schema\Tables\staging\Vsitas.sql" />
+    <Build Include="Schema\Tables\staging\staging.Pacientest.sql" />
+    <Build Include="Schema\Tables\staging\staging.Medicost.sql" />
+    <Build Include="Schema\Tables\staging\staging.Serviciost.sql" />
+    <Build Include="Schema\Tables\staging\staging.Visitast.sql" />
+    <Build Include="Schema\Tables\staging\staging.Hospitalst.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema\Programmability\Stored Procedures\GetLastPackageRowVersion.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Schema\Programmability\Stored Procedures\UpdateLastPackageRowVersion.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimPaciente.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimMedico.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimServicio.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimHospital.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimFactVisitas.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
+    <None Include="Scripts\PatchDimDate.data.sql" />
+    <None Include="Scripts\PackageConfig.data.sql" />
+    <None Include="Scripts\DimTiempo.data.sql" />
   </ItemGroup>
 </Project>

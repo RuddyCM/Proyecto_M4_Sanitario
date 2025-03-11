@@ -1,11 +1,11 @@
-﻿-- Tabla Dim_Tiempo
+﻿-- Tabla Dim_Tiempo con TiempoSK como IDENTITY
 CREATE TABLE Dim_Tiempo (
-    TiempoSK INT IDENTITY(1,1) PRIMARY KEY,
+    TiempoSK INT IDENTITY(1,1) NOT NULL CONSTRAINT PK_DimTiempo PRIMARY KEY,
     fecha DATE UNIQUE NOT NULL,
-    anio INT,
-    trimestre INT,
-    mes INT,
-    dia INT,
-    semana INT,
-    dia_mes INT
+    anio INT NOT NULL,
+    trimestre INT NOT NULL,
+    mes INT NOT NULL,
+    dia INT NOT NULL,
+    semana INT NOT NULL,
+    dia_mes INT NOT NULL
 );
