@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SanitarioReports", "SanitarioReports.rptproj", "{5D23134D-1EB1-B88E-43A1-FC3A1164295A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D23134D-1EB1-B88E-43A1-FC3A1164295A}.Debug|Default.ActiveCfg = Debug
+		{5D23134D-1EB1-B88E-43A1-FC3A1164295A}.Debug|Default.Build.0 = Debug
+		{5D23134D-1EB1-B88E-43A1-FC3A1164295A}.Debug|Default.Deploy.0 = Debug
+		{5D23134D-1EB1-B88E-43A1-FC3A1164295A}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{5D23134D-1EB1-B88E-43A1-FC3A1164295A}.DebugLocal|Default.Build.0 = DebugLocal
+		{5D23134D-1EB1-B88E-43A1-FC3A1164295A}.Release|Default.ActiveCfg = Release
+		{5D23134D-1EB1-B88E-43A1-FC3A1164295A}.Release|Default.Build.0 = Release
+		{5D23134D-1EB1-B88E-43A1-FC3A1164295A}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90629D3B-AFD0-4737-9618-0A7ADAEE1DAB}
+	EndGlobalSection
+EndGlobal

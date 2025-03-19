@@ -1,20 +1,48 @@
-﻿-- Tabla de Hechos: Fact_Visitas
+﻿-- Crear la tabla de hechos sin claves primarias ni foráneas
 CREATE TABLE Fact_Visitas (
-    VisitaSK INT IDENTITY(1,1) PRIMARY KEY,
-    PacienteSK INT,
-    MedicoSK INT,
-    HospitalSK INT,
-    ServicioSK INT,
-    TiempoSK INT,
-    num_habitacion INT NOT NULL,
-    fecha_hora DATETIME NOT NULL,
-    fecha_alta DATE NOT NULL,
-    diagnostico TEXT NOT NULL,
-    tratamiento TEXT NOT NULL,
-    dias_ingreso INT NOT NULL,
-    FOREIGN KEY (PacienteSK) REFERENCES Dim_Paciente(PacienteSK),
-    FOREIGN KEY (MedicoSK) REFERENCES Dim_Medico(MedicoSK),
-    FOREIGN KEY (HospitalSK) REFERENCES Dim_Hospital(HospitalSK),
-    FOREIGN KEY (ServicioSK) REFERENCES Dim_Servicio(ServicioSK),
-    FOREIGN KEY (TiempoSK) REFERENCES Dim_Tiempo(TiempoSK)
+    VisitaSK INT IDENTITY(1,1),  -- Ahora es autoincremental
+    PacienteSK INT NULL,
+    MedicoSK INT NULL,
+    HospitalSK INT NULL,
+    ServicioSK INT NULL,
+    TiempoSK_FechaHora INT NULL,  -- Clave sustituta para fecha_hora
+    TiempoSK_FechaAlta INT NULL,  -- Clave sustituta para fecha_alta
+    num_habitacion INT NULL,
+    fecha_hora DATETIME NULL,
+    fecha_alta DATE NULL,
+    diagnostico TEXT NULL,
+    tratamiento TEXT NULL,
+    dias_ingreso INT NULL
 );
+GO
+
+-- 🔹 Agregar la clave primaria
+ALTER TABLE Fact_Visitas 
+ADD CONSTRAINT PK_Fact_Visitas PRIMARY KEY (VisitaSK);
+GO
+
+-- 🔹 Agregar claves foráneas (Relacionando con Dimensiones)
+ALTER TABLE Fact_Visitas 
+ADD CONSTRAINT FK_Dim_Paciente FOREIGN KEY (PacienteSK) REFERENCES Dim_Paciente(PacienteSK);
+GO
+
+ALTER TABLE Fact_Visitas 
+ADD CONSTRAINT FK_Dim_Medico FOREIGN KEY (MedicoSK) REFERENCES Dim_Medico(MedicoSK);
+GO
+
+ALTER TABLE Fact_Visitas 
+ADD CONSTRAINT FK_Dim_Hospital FOREIGN KEY (HospitalSK) REFERENCES Dim_Hospital(HospitalSK);
+GO
+
+ALTER TABLE Fact_Visitas 
+ADD CONSTRAINT FK_Dim_Servicio FOREIGN KEY (ServicioSK) REFERENCES Dim_Servicio(ServicioSK);
+GO
+
+-- 🔹 Relaciones con la dimensión de tiempo
+ALTER TABLE Fact_Visitas 
+ADD CONSTRAINT FK_Dim_Tiempo_TiempoSK_FechaHora FOREIGN KEY (TiempoSK_FechaHora) REFERENCES Dim_Tiempo(TiempoSK);
+GO
+
+ALTER TABLE Fact_Visitas 
+ADD CONSTRAINT FK_Dim_Tiempo_TiempoSK_FechaAlta FOREIGN KEY (TiempoSK_FechaAlta) REFERENCES Dim_Tiempo(TiempoSK);
+GO

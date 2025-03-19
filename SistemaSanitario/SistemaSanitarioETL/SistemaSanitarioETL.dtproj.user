@@ -8,7 +8,8 @@
         <UseWinAuth>false</UseWinAuth>
         <WinAuthUserName />
         <WinAuthDomain />
-        <StartObjectID>Medico.dtsx</StartObjectID>
+        <ServerName>localhost</ServerName>
+        <PathOnServer>/SSISDB/ProyectoSanitario/SanitarioETL</PathOnServer>
         <UserIDs />
         <UserPasswords />
         <OfflineMode>false</OfflineMode>

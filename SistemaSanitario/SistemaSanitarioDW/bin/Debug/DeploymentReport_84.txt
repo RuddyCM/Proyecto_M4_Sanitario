@@ -1,0 +1,42 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       [dbo].[Fact_Visitas]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Quitar
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+     Volver a crear la tabla
+       [dbo].[Fact_Visitas] (Tabla)
+     Crear
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+
+** Acciones de compatibilidad
+     Crear
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+     Actualizar
+       [dbo].[DW_MergeFactVisitas] (Procedimiento)
+
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetMedicalVisitsByYear].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetMonths].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetPromedioDiasIngresoByEspecialidad].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetPromedioDiasIngresoByHospital].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetTopPacientesByVisitas].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetVisitasByEspecialidad].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetVisitasByHospital].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetVisitasByMedico].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetYears].
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

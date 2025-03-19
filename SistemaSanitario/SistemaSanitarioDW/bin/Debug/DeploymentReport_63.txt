@@ -1,0 +1,27 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       [staging].[Visitast]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Se está quitando la columna [staging].[Visitast].[fecha_hora]; puede que se pierdan datos.
+       El tipo de la columna TiempoSK_FechaAlta en la tabla [staging].[Visitast] es  DATETIME NULL, pero se va a cambiar a  INT
+         NULL. Si la columna contiene datos no compatibles con el tipo  INT NULL, podrían producirse pérdidas de datos y errores
+         en la implementación.
+
+** Acciones del usuario
+     Cambiar nombre
+       [staging].[Visitast].[TiempoSK_FechaAlta] (Columna)
+     Volver a crear la tabla
+       [staging].[Visitast] (Tabla)
+     Modificar
+       [dbo].[DW_MergeFactVisitas] (Procedimiento)
+
+** Acciones de compatibilidad
+
+Se está quitando la columna [staging].[Visitast].[fecha_hora]; puede que se pierdan datos.
+El tipo de la columna TiempoSK_FechaAlta en la tabla [staging].[Visitast] es  DATETIME NULL, pero se va a cambiar a  INT NULL. Si la columna contiene datos no compatibles con el tipo  INT NULL, podrían producirse pérdidas de datos y errores en la implementación.
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

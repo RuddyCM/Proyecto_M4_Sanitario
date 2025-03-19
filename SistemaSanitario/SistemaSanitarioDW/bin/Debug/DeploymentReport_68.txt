@@ -1,0 +1,22 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Modificar
+       [dbo].[Fact_Visitas] (Tabla)
+       [dbo].[DW_MergeDimMedico] (Procedimiento)
+
+** Acciones de compatibilidad
+     Actualizar
+       [dbo].[DW_MergeFactVisitas] (Procedimiento)
+
+La columna idVisita de la tabla [dbo].[Fact_Visitas] debe cambiarse de NULL a NOT NULL. Si la tabla contiene datos, puede que no funcione el script ALTER. Para evitar esta incidencia, debe agregar valores en todas las filas de esta columna, marcar la columna de modo que permita valores NULL o habilitar la generación de valores predeterminados inteligentes como opción de implementación.
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

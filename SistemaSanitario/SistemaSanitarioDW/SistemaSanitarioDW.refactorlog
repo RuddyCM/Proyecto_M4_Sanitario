@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="d3e15a85-7c73-4684-8d04-81df3834a318" ChangeDateTime="03/12/2025 21:46:45">
+    <Property Name="ElementName" Value="[staging].[Visitast].[fecha_alta]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[staging].[Visitast]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TiempoSK_FechaAlta " />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dcaeec92-756a-47ec-bd19-1549ba931008" ChangeDateTime="03/12/2025 21:55:55">
+    <Property Name="ElementName" Value="[staging].[Visitast].[TiempoSK_FechaAlta ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[staging].[Visitast]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TiempoSK_FechaAlta" />
+  </Operation>
+</Operations>

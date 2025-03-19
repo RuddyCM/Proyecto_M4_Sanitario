@@ -11,8 +11,8 @@
   DTS:LocaleID="16394"
   DTS:ObjectName="Servicio"
   DTS:PackageType="5"
-  DTS:VersionBuild="32"
-  DTS:VersionGUID="{A0DD8F19-64E9-44A7-80DA-D29CE75FF821}">
+  DTS:VersionBuild="35"
+  DTS:VersionGUID="{76AF53EF-7319-4F51-A8C9-55843B2649BE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -988,14 +988,14 @@ where [refTable].[idServicio] = ?</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,38.1333339360024"
+              EndConnector="0,38.133333936002"
               Start="0,0"
-              End="0,30.6333339360024">
+              End="0,30.633333936002">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.6333339360024" />
+                    End="0,30.633333936002" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1119,7 +1119,9 @@ where [refTable].[idServicio] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

@@ -1,0 +1,8 @@
+D:\programas para la maestria\proyecto modulo 4\SanitarioOLAPV2\bin\SanitarioOLAPv2.asdatabase
+D:\programas para la maestria\proyecto modulo 4\SanitarioOLAPV2\bin\SanitarioOLAPv2.deploymenttargets
+D:\programas para la maestria\proyecto modulo 4\SanitarioOLAPV2\bin\SanitarioOLAPv2.deploymentoptions
+D:\programas para la maestria\proyecto modulo 4\SanitarioOLAPV2\obj\Development\SanitarioOLAPV2.smproj.AssemblyReference.cache
+D:\programas para la maestria\proyecto modulo 4\SanitarioOLAPV2\obj\Development\SanitarioOLAPV2.smproj.CoreCompileInputs.cache
+D:\programas para la maestria\proyecto modulo 4\SanitarioOLAPV2\obj\Development\SanitarioOLAPv2.asdatabase
+D:\programas para la maestria\proyecto modulo 4\SanitarioOLAPV2\obj\Development\SanitarioOLAPv2.deploymentoptions
+D:\programas para la maestria\proyecto modulo 4\SanitarioOLAPV2\obj\Development\SanitarioOLAPv2.deploymenttargets

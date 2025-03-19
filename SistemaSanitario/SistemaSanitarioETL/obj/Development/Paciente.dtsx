@@ -11,8 +11,8 @@
   DTS:LocaleID="16394"
   DTS:ObjectName="Paciente"
   DTS:PackageType="5"
-  DTS:VersionBuild="41"
-  DTS:VersionGUID="{2167A0C7-68F1-4E61-92D7-C0D902D35D92}">
+  DTS:VersionBuild="44"
+  DTS:VersionGUID="{69B88A2E-15C7-4087-B6D0-6ECF04C35E5B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -695,7 +695,7 @@ where [refTable].[DNI_Paciente] = ?</property>
                 <property
                   dataType="System.String"
                   description="Indicates whether to reference metadata in an XML format."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="PacienteSK" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DNI_Paciente" dataType="DT_STR" length="20" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="apellidos_nombre" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="fecha_nacimiento" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="num_seguridad_social" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="otros_datos" dataType="DT_TEXT" length="0" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="PacienteSK" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DNI_Paciente" dataType="DT_STR" length="20" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="apellidos_nombre" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="fecha_nacimiento" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="num_seguridad_social" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="otros_datos" dataType="DT_TEXT" length="0" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
                 <property
                   containsID="true"
                   dataType="System.String"
@@ -920,6 +920,10 @@ where [refTable].[DNI_Paciente] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="156.8,41.6"
+          Id="Package\Clean-up staging"
+          TopLeft="371.99997937431,205.966665196154" />
+        <NodeLayout
           Size="201.6,41.6"
           Id="Package\Get Database RowVersion"
           TopLeft="344.999984428287,28.8000002169609" />
@@ -928,13 +932,17 @@ where [refTable].[DNI_Paciente] = ?</property>
           Id="Package\Get LastRowVersion"
           TopLeft="361.666646906072,121.333332489596" />
         <NodeLayout
-          Size="156.8,41.6"
-          Id="Package\Clean-up staging"
-          TopLeft="371.99997937431,205.966665196154" />
-        <NodeLayout
           Size="150.4,41.6"
           Id="Package\Load Pacientes"
           TopLeft="366.166646359696,290.033331278232" />
+        <NodeLayout
+          Size="137.6,41.6"
+          Id="Package\Sync staging"
+          TopLeft="355.833317169713,391.633331278232" />
+        <NodeLayout
+          Size="144.8,41.6"
+          Id="Package\Update Config"
+          TopLeft="344.999984428287,471.366665214234" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
           TopLeft="447.13331566718,70.4000002169609">
@@ -1013,14 +1021,6 @@ where [refTable].[DNI_Paciente] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="137.6,41.6"
-          Id="Package\Sync staging"
-          TopLeft="355.833317169713,391.633331278232" />
-        <NodeLayout
-          Size="144.8,41.6"
-          Id="Package\Update Config"
-          TopLeft="344.999984428287,471.366665214234" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 3]"
           TopLeft="441.366646359696,331.633331278232">
@@ -1086,27 +1086,35 @@ where [refTable].[DNI_Paciente] = ?</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="112.8,41.6"
+          Id="Package\Load Pacientes\Lookup"
+          TopLeft="549.999991804361,171.999997437" />
+        <NodeLayout
           Size="144,41.6"
           Id="Package\Load Pacientes\Get Pacientes"
           TopLeft="536.833312982488,63.7333328106668" />
         <NodeLayout
-          Size="112.8,41.6"
-          Id="Package\Load Pacientes\Lookup"
-          TopLeft="549.999991804361,171.999997437" />
+          Size="150.4,41.6"
+          Id="Package\Load Pacientes\Load Pacientes"
+          TopLeft="694.999989643693,261.999996095896" />
+        <NodeLayout
+          Size="137.6,41.6"
+          Id="Package\Load Pacientes\Load staging"
+          TopLeft="364.999994561076,252.999996230006" />
         <EdgeLayout
           Id="Package\Load Pacientes.Paths[OLE DB Source Output]"
           TopLeft="607.616652393425,105.333332810667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,66.6666646263335"
+              EndConnector="0,66.6666646263332"
               Start="0,0"
-              End="0,59.1666646263335">
+              End="0,59.1666646263332">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,59.1666646263335" />
+                    End="0,59.1666646263332" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1115,102 +1123,81 @@ where [refTable].[DNI_Paciente] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="137.6,41.6"
-          Id="Package\Load Pacientes\Load staging"
-          TopLeft="364.999994561076,252.999996230006" />
-        <EdgeLayout
-          Id="Package\Load Pacientes.Paths[Lookup Match Output]"
-          TopLeft="606.399991804361,213.599997437">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-172.599997243285,39.3999987930059"
-              Start="0,0"
-              End="-172.599997243285,31.8999987930059">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.699999396503" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.699999396503"
-                    Point2="0,19.699999396503"
-                    Point3="-4,19.699999396503" />
-                  <mssgle:LineSegment
-                    End="-168.599997243285,19.699999396503" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-168.599997243285,19.699999396503"
-                    Point2="-172.599997243285,19.699999396503"
-                    Point3="-172.599997243285,23.699999396503" />
-                  <mssgle:LineSegment
-                    End="-172.599997243285,31.8999987930059" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-134.491385340393,24.699999396503,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\Load Pacientes\Load Pacientes"
-          TopLeft="694.999989643693,261.999996095896" />
         <EdgeLayout
           Id="Package\Load Pacientes.Paths[Lookup No Match Output]"
           TopLeft="623.866658471028,213.599997437">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="146.333331172665,48.3999986588955"
+              EndConnector="146.333331172665,48.399998658896"
               Start="0,0"
-              End="146.333331172665,40.8999986588955">
+              End="146.333331172665,40.899998658896">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15.766153298458" />
+                    End="0,15.7661532984582" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,15.766153298458"
-                    Point2="0,19.766153298458"
-                    Point3="4,19.766153298458" />
+                    Point1="0,15.7661532984582"
+                    Point2="0,19.7661532984582"
+                    Point3="4,19.7661532984582" />
                   <mssgle:LineSegment
-                    End="142.333331172665,19.766153298458" />
+                    End="142.333331172665,19.7661532984582" />
                   <mssgle:CubicBezierSegment
-                    Point1="142.333331172665,19.766153298458"
-                    Point2="146.333331172665,19.766153298458"
-                    Point3="146.333331172665,23.766153298458" />
+                    Point1="142.333331172665,19.7661532984582"
+                    Point2="146.333331172665,19.7661532984582"
+                    Point3="146.333331172665,23.7661532984582" />
                   <mssgle:LineSegment
-                    End="146.333331172665,40.8999986588955" />
+                    End="146.333331172665,40.899998658896" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="17.3602788675826,24.766153298458,111.6127734375,11.609375"
+              BoundingBox="17.3602788675826,24.7661532984582,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Pacientes.Paths[Lookup Match Output]"
+          TopLeft="588.933325137694,213.599997437">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-155.133330576618,39.399998793006"
+              Start="0,0"
+              End="-155.133330576618,31.899998793006">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.0906288777032" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.0906288777032"
+                    Point2="0,16.0906288777032"
+                    Point3="-4,16.0906288777032" />
+                  <mssgle:LineSegment
+                    End="-151.133330576618,16.0906288777032" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-151.133330576618,16.0906288777032"
+                    Point2="-155.133330576618,16.0906288777032"
+                    Point3="-155.133330576618,20.0906288777032" />
+                  <mssgle:LineSegment
+                    End="-155.133330576618,31.899998793006" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-125.758052007059,21.0906288777032,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Pacientes\Get Pacientes">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Load Pacientes\Lookup">
     <Properties>
@@ -1235,7 +1222,7 @@ where [refTable].[DNI_Paciente] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load Pacientes\Load staging">
+    design-time-name="Package\Load Pacientes\Get Pacientes">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1249,6 +1236,19 @@ where [refTable].[DNI_Paciente] = ?</property>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Load Pacientes\Load Pacientes">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Pacientes\Load staging">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

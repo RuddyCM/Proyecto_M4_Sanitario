@@ -1,0 +1,433 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1600,
+  "model": {
+    "culture": "es-BO",
+    "dataSources": [
+      {
+        "type": "structured",
+        "name": "SQL/localhost;BDsanitarioDW",
+        "connectionDetails": {
+          "protocol": "tds",
+          "address": {
+            "server": "localhost",
+            "database": "BDsanitarioDW"
+          },
+          "authentication": null,
+          "query": null
+        },
+        "credential": {
+          "AuthenticationKind": "UsernamePassword",
+          "Username": "sa",
+          "EncryptConnection": false
+        }
+      }
+    ],
+    "tables": [
+      {
+        "name": "Dim_Hospital",
+        "columns": [
+          {
+            "name": "HospitalSK",
+            "dataType": "int64",
+            "sourceColumn": "HospitalSK"
+          },
+          {
+            "name": "codHospital",
+            "dataType": "int64",
+            "sourceColumn": "codHospital"
+          },
+          {
+            "name": "nombre",
+            "dataType": "string",
+            "sourceColumn": "nombre"
+          },
+          {
+            "name": "ciudad",
+            "dataType": "string",
+            "sourceColumn": "ciudad"
+          },
+          {
+            "name": "telefono",
+            "dataType": "string",
+            "sourceColumn": "telefono"
+          },
+          {
+            "name": "director",
+            "dataType": "string",
+            "sourceColumn": "director"
+          },
+          {
+            "name": "numero_total_camas",
+            "dataType": "int64",
+            "sourceColumn": "numero_total_camas"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Partition",
+            "dataView": "full",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #\"SQL/localhost;BDsanitarioDW\",",
+                "    dbo_Dim_Hospital = Source{[Schema=\"dbo\",Item=\"Dim_Hospital\"]}[Data]",
+                "in",
+                "    dbo_Dim_Hospital"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dim_Medico",
+        "columns": [
+          {
+            "name": "MedicoSK",
+            "dataType": "int64",
+            "sourceColumn": "MedicoSK"
+          },
+          {
+            "name": "DNI_Medico",
+            "dataType": "string",
+            "sourceColumn": "DNI_Medico"
+          },
+          {
+            "name": "apellidos_nombre",
+            "dataType": "string",
+            "sourceColumn": "apellidos_nombre"
+          },
+          {
+            "name": "fecha_nacimiento",
+            "dataType": "dateTime",
+            "sourceColumn": "fecha_nacimiento"
+          },
+          {
+            "name": "codHospital",
+            "dataType": "int64",
+            "sourceColumn": "codHospital"
+          },
+          {
+            "name": "direccion_hospital",
+            "dataType": "string",
+            "sourceColumn": "direccion_hospital"
+          },
+          {
+            "name": "es_director",
+            "dataType": "boolean",
+            "sourceColumn": "es_director"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Partition",
+            "dataView": "full",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #\"SQL/localhost;BDsanitarioDW\",",
+                "    dbo_Dim_Medico = Source{[Schema=\"dbo\",Item=\"Dim_Medico\"]}[Data]",
+                "in",
+                "    dbo_Dim_Medico"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dim_Paciente",
+        "columns": [
+          {
+            "name": "PacienteSK",
+            "dataType": "int64",
+            "sourceColumn": "PacienteSK"
+          },
+          {
+            "name": "DNI_Paciente",
+            "dataType": "string",
+            "sourceColumn": "DNI_Paciente"
+          },
+          {
+            "name": "apellidos_nombre",
+            "dataType": "string",
+            "sourceColumn": "apellidos_nombre"
+          },
+          {
+            "name": "fecha_nacimiento",
+            "dataType": "dateTime",
+            "sourceColumn": "fecha_nacimiento"
+          },
+          {
+            "name": "num_seguridad_social",
+            "dataType": "string",
+            "sourceColumn": "num_seguridad_social"
+          },
+          {
+            "name": "otros_datos",
+            "dataType": "string",
+            "sourceColumn": "otros_datos"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Partition",
+            "dataView": "full",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #\"SQL/localhost;BDsanitarioDW\",",
+                "    dbo_Dim_Paciente = Source{[Schema=\"dbo\",Item=\"Dim_Paciente\"]}[Data]",
+                "in",
+                "    dbo_Dim_Paciente"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dim_Tiempo",
+        "columns": [
+          {
+            "name": "TiempoSK",
+            "dataType": "int64",
+            "sourceColumn": "TiempoSK"
+          },
+          {
+            "name": "fecha",
+            "dataType": "dateTime",
+            "sourceColumn": "fecha"
+          },
+          {
+            "name": "anio",
+            "dataType": "int64",
+            "sourceColumn": "anio"
+          },
+          {
+            "name": "trimestre",
+            "dataType": "int64",
+            "sourceColumn": "trimestre"
+          },
+          {
+            "name": "mes",
+            "dataType": "int64",
+            "sourceColumn": "mes"
+          },
+          {
+            "name": "dia",
+            "dataType": "int64",
+            "sourceColumn": "dia"
+          },
+          {
+            "name": "semana",
+            "dataType": "int64",
+            "sourceColumn": "semana"
+          },
+          {
+            "name": "dia_mes",
+            "dataType": "int64",
+            "sourceColumn": "dia_mes"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Partition",
+            "dataView": "full",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #\"SQL/localhost;BDsanitarioDW\",",
+                "    dbo_Dim_Tiempo = Source{[Schema=\"dbo\",Item=\"Dim_Tiempo\"]}[Data]",
+                "in",
+                "    dbo_Dim_Tiempo"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dim_Servicio",
+        "columns": [
+          {
+            "name": "ServicioSK",
+            "dataType": "int64",
+            "sourceColumn": "ServicioSK"
+          },
+          {
+            "name": "idServicio",
+            "dataType": "string",
+            "sourceColumn": "idServicio"
+          },
+          {
+            "name": "nombre_servicio",
+            "dataType": "string",
+            "sourceColumn": "nombre_servicio"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Partition",
+            "dataView": "full",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #\"SQL/localhost;BDsanitarioDW\",",
+                "    dbo_Dim_Servicio = Source{[Schema=\"dbo\",Item=\"Dim_Servicio\"]}[Data]",
+                "in",
+                "    dbo_Dim_Servicio"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Fact_Visitas",
+        "columns": [
+          {
+            "name": "VisitaSK",
+            "dataType": "int64",
+            "sourceColumn": "VisitaSK"
+          },
+          {
+            "name": "PacienteSK",
+            "dataType": "int64",
+            "sourceColumn": "PacienteSK"
+          },
+          {
+            "name": "MedicoSK",
+            "dataType": "int64",
+            "sourceColumn": "MedicoSK"
+          },
+          {
+            "name": "HospitalSK",
+            "dataType": "int64",
+            "sourceColumn": "HospitalSK"
+          },
+          {
+            "name": "ServicioSK",
+            "dataType": "int64",
+            "sourceColumn": "ServicioSK"
+          },
+          {
+            "name": "TiempoSK_FechaHora",
+            "dataType": "int64",
+            "sourceColumn": "TiempoSK_FechaHora"
+          },
+          {
+            "name": "TiempoSK_FechaAlta",
+            "dataType": "int64",
+            "sourceColumn": "TiempoSK_FechaAlta"
+          },
+          {
+            "name": "num_habitacion",
+            "dataType": "int64",
+            "sourceColumn": "num_habitacion"
+          },
+          {
+            "name": "fecha_hora",
+            "dataType": "dateTime",
+            "sourceColumn": "fecha_hora"
+          },
+          {
+            "name": "fecha_alta",
+            "dataType": "dateTime",
+            "sourceColumn": "fecha_alta"
+          },
+          {
+            "name": "diagnostico",
+            "dataType": "string",
+            "sourceColumn": "diagnostico"
+          },
+          {
+            "name": "tratamiento",
+            "dataType": "string",
+            "sourceColumn": "tratamiento"
+          },
+          {
+            "name": "dias_ingreso",
+            "dataType": "int64",
+            "sourceColumn": "dias_ingreso"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Partition",
+            "dataView": "full",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #\"SQL/localhost;BDsanitarioDW\",",
+                "    dbo_Fact_Visitas = Source{[Schema=\"dbo\",Item=\"Fact_Visitas\"]}[Data]",
+                "in",
+                "    dbo_Fact_Visitas"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "TotalQuantity",
+            "expression": "COUNT(Fact_Visitas[VisitaSK])"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "7a021cab-2666-4abb-a08e-161ee81d89c5",
+        "fromTable": "Fact_Visitas",
+        "fromColumn": "TiempoSK_FechaAlta",
+        "toTable": "Dim_Tiempo",
+        "toColumn": "TiempoSK",
+        "isActive": false
+      },
+      {
+        "name": "fde7bb1e-22a4-4e14-9298-b83a9f08a4d4",
+        "fromTable": "Fact_Visitas",
+        "fromColumn": "HospitalSK",
+        "toTable": "Dim_Hospital",
+        "toColumn": "HospitalSK"
+      },
+      {
+        "name": "036b3362-1803-4801-9942-ed2f37dba1cc",
+        "fromTable": "Fact_Visitas",
+        "fromColumn": "MedicoSK",
+        "toTable": "Dim_Medico",
+        "toColumn": "MedicoSK"
+      },
+      {
+        "name": "e37377e5-d4e4-4648-8612-36d96d093353",
+        "fromTable": "Fact_Visitas",
+        "fromColumn": "PacienteSK",
+        "toTable": "Dim_Paciente",
+        "toColumn": "PacienteSK"
+      },
+      {
+        "name": "1c9bb08b-17b1-421c-9dab-040898c38355",
+        "fromTable": "Fact_Visitas",
+        "fromColumn": "TiempoSK_FechaHora",
+        "toTable": "Dim_Tiempo",
+        "toColumn": "TiempoSK"
+      },
+      {
+        "name": "00b598fe-fd70-414b-a40b-6e9c5772b27c",
+        "fromTable": "Fact_Visitas",
+        "fromColumn": "ServicioSK",
+        "toTable": "Dim_Servicio",
+        "toColumn": "ServicioSK"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "ClientCompatibilityLevel",
+        "value": "700"
+      }
+    ]
+  },
+  "id": "SemanticModel"
+}

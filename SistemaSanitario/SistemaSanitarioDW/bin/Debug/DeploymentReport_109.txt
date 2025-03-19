@@ -1,0 +1,37 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       [dbo].[Fact_Visitas]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Quitar
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+     Volver a crear la tabla
+       [dbo].[Fact_Visitas] (Tabla)
+     Crear
+       [dbo].[FK_Dim_Paciente] (Clave externa)
+       [dbo].[FK_Dim_Medico] (Clave externa)
+       [dbo].[FK_Dim_Hospital] (Clave externa)
+       [dbo].[FK_Dim_Servicio] (Clave externa)
+
+** Acciones de compatibilidad
+     Quitar
+       [dbo].[FK_Dim_Tiempo_TiempoSK_FechaHora] (Clave externa)
+       [dbo].[FK_Dim_Tiempo_TiempoSK_FechaAlta] (Clave externa)
+     Crear
+       [dbo].[FK_Dim_Tiempo_TiempoSK_FechaHora] (Clave externa)
+       [dbo].[FK_Dim_Tiempo_TiempoSK_FechaAlta] (Clave externa)
+     Actualizar
+       [dbo].[DW_MergeFactVisitas] (Procedimiento)
+
+La columna VisitaSK de la tabla [dbo].[Fact_Visitas] debe cambiarse de NULL a NOT NULL. Si la tabla contiene datos, puede que no funcione el script ALTER. Para evitar esta incidencia, debe agregar valores en todas las filas de esta columna, marcar la columna de modo que permita valores NULL o habilitar la generación de valores predeterminados inteligentes como opción de implementación.
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

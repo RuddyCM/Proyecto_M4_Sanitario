@@ -1,0 +1,24 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       [dbo].[Dim_Tiempo]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Quitar
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+     Volver a crear la tabla
+       [dbo].[Dim_Tiempo] (Tabla)
+     Crear
+       [dbo].[FK_Dim_Tiempo_TiempoSK_FechaAlta] (Clave externa)
+       [dbo].[FK_Dim_Tiempo_TiempoSK_FechaHora] (Clave externa)
+
+** Acciones de compatibilidad
+
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

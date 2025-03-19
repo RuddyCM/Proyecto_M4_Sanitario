@@ -1,0 +1,26 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       [staging].[Visitast]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       El tipo de la columna TiempoSK_FechaAlta de la tabla [staging].[Visitast] es actualmente  DATE NULL pero se está
+         cambiando a  INT NULL. No hay conversión implícita ni explícita.
+       El tipo de la columna TiempoSK_FechaHora en la tabla [staging].[Visitast] es  DATETIME NULL, pero se va a cambiar a  INT
+         NULL. Si la columna contiene datos no compatibles con el tipo  INT NULL, podrían producirse pérdidas de datos y errores
+         en la implementación.
+
+** Acciones del usuario
+     Volver a crear la tabla
+       [staging].[Visitast] (Tabla)
+
+** Acciones de compatibilidad
+     Actualizar
+       [dbo].[DW_MergeFactVisitas] (Procedimiento)
+
+El tipo de la columna TiempoSK_FechaAlta de la tabla [staging].[Visitast] es actualmente  DATE NULL pero se está cambiando a  INT NULL. No hay conversión implícita ni explícita.
+El tipo de la columna TiempoSK_FechaHora en la tabla [staging].[Visitast] es  DATETIME NULL, pero se va a cambiar a  INT NULL. Si la columna contiene datos no compatibles con el tipo  INT NULL, podrían producirse pérdidas de datos y errores en la implementación.
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

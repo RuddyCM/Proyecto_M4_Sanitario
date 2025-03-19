@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\programas para la maestria\\proyecto modulo 4\\SanitarioReports\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D23134D-1EB1-B88E-43A1-FC3A1164295A}|SanitarioReports.rptproj|D:\\programas para la maestria\\proyecto modulo 4\\SanitarioReports\\PerformanceAtencion.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{5D23134D-1EB1-B88E-43A1-FC3A1164295A}|SanitarioReports.rptproj|solutionrelative:PerformanceAtencion.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PerformanceAtencion.rdl [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\programas para la maestria\\proyecto modulo 4\\SanitarioReports\\PerformanceAtencion.rdl",
+              "RelativeDocumentMoniker": "PerformanceAtencion.rdl",
+              "ToolTip": "D:\\programas para la maestria\\proyecto modulo 4\\SanitarioReports\\PerformanceAtencion.rdl [Dise\u00F1o]",
+              "RelativeToolTip": "PerformanceAtencion.rdl [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-19T00:00:30.05Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

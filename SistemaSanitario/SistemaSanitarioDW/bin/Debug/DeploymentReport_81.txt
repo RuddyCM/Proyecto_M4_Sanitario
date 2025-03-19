@@ -1,0 +1,20 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Modificar
+       [dbo].[Fact_Visitas] (Tabla)
+
+** Acciones de compatibilidad
+     Actualizar
+       [dbo].[DW_MergeFactVisitas] (Procedimiento)
+
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

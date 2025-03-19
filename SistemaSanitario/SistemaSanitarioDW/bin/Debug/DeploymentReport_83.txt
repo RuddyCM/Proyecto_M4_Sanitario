@@ -1,0 +1,46 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       [dbo].[Fact_Visitas]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Debe agregarse la columna [dbo].[Fact_Visitas].[TiempoSK_FechaHora] de la tabla [dbo].[Fact_Visitas], pero esta columna
+         no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará.
+         Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o
+         habilite la generación de valores predeterminados inteligentes como opción de implementación.
+
+** Acciones del usuario
+     Quitar
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+     Volver a crear la tabla
+       [dbo].[Fact_Visitas] (Tabla)
+     Crear
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+
+** Acciones de compatibilidad
+     Crear
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[Fact_Visitas] (Clave externa)
+     Actualizar
+       [dbo].[DW_MergeFactVisitas] (Procedimiento)
+
+Debe agregarse la columna [dbo].[Fact_Visitas].[TiempoSK_FechaHora] de la tabla [dbo].[Fact_Visitas], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetMedicalVisitsByYear].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetMonths].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetPromedioDiasIngresoByEspecialidad].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetPromedioDiasIngresoByHospital].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetTopPacientesByVisitas].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetVisitasByEspecialidad].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetVisitasByHospital].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetVisitasByMedico].
+Si se ejecuta esta implementación, los cambios realizados en [dbo].[Fact_Visitas] podrían generar errores en tiempo de ejecución en [dbo].[sp_GetYears].
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

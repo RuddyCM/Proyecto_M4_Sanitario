@@ -11,8 +11,8 @@
   DTS:LocaleID="16394"
   DTS:ObjectName="Hospital"
   DTS:PackageType="5"
-  DTS:VersionBuild="19"
-  DTS:VersionGUID="{BF3CE032-21BD-4B29-9F3A-2FADDC653281}">
+  DTS:VersionBuild="20"
+  DTS:VersionGUID="{9FEEF5D3-F484-44D5-968F-45766F951204}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -964,6 +964,10 @@ where [refTable].[codHospital] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="156.8,41.6"
+          Id="Package\Clean-up staging"
+          TopLeft="314.499982515971,227.633331712154" />
+        <NodeLayout
           Size="201.6,41.6"
           Id="Package\Get Database RowVersion"
           TopLeft="287.499987569949,50.4666667329603" />
@@ -972,13 +976,17 @@ where [refTable].[codHospital] = ?</property>
           Id="Package\Get LastRowVersion"
           TopLeft="304.166650047733,142.999999005596" />
         <NodeLayout
-          Size="156.8,41.6"
-          Id="Package\Clean-up staging"
-          TopLeft="314.499982515971,227.633331712154" />
-        <NodeLayout
           Size="152.8,41.6"
           Id="Package\Load Hospitales"
           TopLeft="308.666649501357,311.699997794231" />
+        <NodeLayout
+          Size="137.6,41.6"
+          Id="Package\Sync staging"
+          TopLeft="298.333320311375,413.299997794231" />
+        <NodeLayout
+          Size="144.8,41.6"
+          Id="Package\Update Config"
+          TopLeft="287.499987569949,493.033331730233" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
           TopLeft="389.633318808841,92.0666667329603">
@@ -1045,36 +1053,6 @@ where [refTable].[codHospital] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="137.6,41.6"
-          Id="Package\Sync staging"
-          TopLeft="298.333320311375,413.299997794231" />
-        <NodeLayout
-          Size="144.8,41.6"
-          Id="Package\Update Config"
-          TopLeft="287.499987569949,493.033331730233" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Restricción 4]"
-          TopLeft="363.516653940662,454.899997794231">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38.133333936002"
-              Start="0,0"
-              End="0,30.633333936002">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.633333936002" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 3]"
           TopLeft="385.066649501357,353.299997794231">
@@ -1101,6 +1079,28 @@ where [refTable].[codHospital] = ?</property>
                     Point3="-17.9333291899827,34" />
                   <mssgle:LineSegment
                     End="-17.9333291899827,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 4]"
+          TopLeft="363.516653940662,454.899997794231">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38.133333936002"
+              Start="0,0"
+              End="0,30.633333936002">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.633333936002" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1231,6 +1231,19 @@ where [refTable].[codHospital] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Load Hospitales\Load staging">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Load Hospitales\Load Hospitales">
     <Properties>
       <Property>
@@ -1244,12 +1257,20 @@ where [refTable].[codHospital] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Load Hospitales\Get Hospitales">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Load Hospitales\Lookup">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1259,31 +1280,10 @@ where [refTable].[codHospital] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Hospitales\Get Hospitales">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Hospitales\Load staging">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

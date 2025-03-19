@@ -11,8 +11,8 @@
   DTS:LocaleID="16394"
   DTS:ObjectName="Medico"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{B6179273-CB8B-45E6-BE9B-2FB6E8A8A40A}">
+  DTS:VersionBuild="19"
+  DTS:VersionGUID="{3854FC2B-5DCC-4B5E-969B-27F65D695844}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -940,6 +940,10 @@ where [refTable].[DNI_Medico] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="156.8,41.6"
+          Id="Package\Clean-up staging"
+          TopLeft="360.333313345082,244.966664924954" />
+        <NodeLayout
           Size="201.6,41.6"
           Id="Package\Get Database RowVersion"
           TopLeft="333.333318399059,67.7999999457598" />
@@ -947,10 +951,6 @@ where [refTable].[DNI_Medico] = ?</property>
           Size="173.6,41.6"
           Id="Package\Get LastRowVersion"
           TopLeft="349.999980876844,160.333332218395" />
-        <NodeLayout
-          Size="156.8,41.6"
-          Id="Package\Clean-up staging"
-          TopLeft="360.333313345082,244.966664924954" />
         <NodeLayout
           Size="143.2,41.6"
           Id="Package\Load Medicos"
@@ -1106,57 +1106,21 @@ where [refTable].[DNI_Medico] = ?</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="137.6,41.6"
+          Id="Package\Load Medicos\Load staging"
+          TopLeft="364.999994561076,252.999996230006" />
+        <NodeLayout
           Size="143.2,41.6"
           Id="Package\Load Medicos\Load Medicos"
           TopLeft="694.999989643693,261.999996095896" />
-        <NodeLayout
-          Size="112.8,41.6"
-          Id="Package\Load Medicos\Lookup"
-          TopLeft="549.999991804361,171.999997437" />
         <NodeLayout
           Size="136.8,41.6"
           Id="Package\Load Medicos\Get Medicos"
           TopLeft="536.833312982488,63.7333328106668" />
         <NodeLayout
-          Size="137.6,41.6"
-          Id="Package\Load Medicos\Load staging"
-          TopLeft="364.999994561076,252.999996230006" />
-        <EdgeLayout
-          Id="Package\Load Medicos.Paths[Lookup Match Output]"
-          TopLeft="606.399991804361,213.599997437">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-172.599997243285,39.3999987930059"
-              Start="0,0"
-              End="-172.599997243285,31.8999987930059">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.699999396503" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.699999396503"
-                    Point2="0,19.699999396503"
-                    Point3="-4,19.699999396503" />
-                  <mssgle:LineSegment
-                    End="-168.599997243285,19.699999396503" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-168.599997243285,19.699999396503"
-                    Point2="-172.599997243285,19.699999396503"
-                    Point3="-172.599997243285,23.699999396503" />
-                  <mssgle:LineSegment
-                    End="-172.599997243285,31.8999987930059" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-134.491385340392,24.699999396503,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="112.8,41.6"
+          Id="Package\Load Medicos\Lookup"
+          TopLeft="549.999991804361,171.999997437" />
         <EdgeLayout
           Id="Package\Load Medicos.Paths[OLE DB Source Output]"
           TopLeft="605.816652393424,105.333332810667">
@@ -1215,9 +1179,58 @@ where [refTable].[DNI_Medico] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Medicos.Paths[Lookup Match Output]"
+          TopLeft="606.399991804361,213.599997437">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-172.599997243285,39.3999987930059"
+              Start="0,0"
+              End="-172.599997243285,31.8999987930059">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.699999396503" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.699999396503"
+                    Point2="0,19.699999396503"
+                    Point3="-4,19.699999396503" />
+                  <mssgle:LineSegment
+                    End="-168.599997243285,19.699999396503" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-168.599997243285,19.699999396503"
+                    Point2="-172.599997243285,19.699999396503"
+                    Point3="-172.599997243285,23.699999396503" />
+                  <mssgle:LineSegment
+                    End="-172.599997243285,31.8999987930059" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-134.491385340392,24.699999396503,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Medicos\Load staging">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Load Medicos\Load Medicos">
     <Properties>
@@ -1232,12 +1245,20 @@ where [refTable].[DNI_Medico] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Load Medicos\Get Medicos">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Load Medicos\Lookup">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1247,31 +1268,10 @@ where [refTable].[DNI_Medico] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Medicos\Get Medicos">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Medicos\Load staging">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
