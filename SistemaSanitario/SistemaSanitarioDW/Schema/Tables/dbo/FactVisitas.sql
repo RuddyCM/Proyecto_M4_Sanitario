@@ -1,6 +1,6 @@
 ﻿-- Crear la tabla de hechos sin claves primarias ni foráneas
 CREATE TABLE Fact_Visitas (
-    VisitaSK INT IDENTITY(1,1),  -- Ahora es autoincremental
+    VisitaSK INT NOT NULL,  -- Ahora es autoincremental
     PacienteSK INT NULL,
     MedicoSK INT NULL,
     HospitalSK INT NULL,
